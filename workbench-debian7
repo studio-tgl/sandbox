@@ -4,7 +4,7 @@
 sudo apt-get update -y
 sudo apt-get install -y build-essential git
 echo "alias g='git'" >> ~/.bashrc
-source ~/.bash_profile
+source ~/.bashrc
 git config --global color.ui auto
 git config --global core.editor vim
 git config --global alias.st status
